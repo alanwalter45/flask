@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+    {%import 'macros/input.html' as d%}
+    <ul>
+        {% for i in lista %}
+        <li>{{i | mi_filtro}}</li>
+        {% endfor %}
+    </ul>
+    {{d.divalan('alan')}}
+    {{d.divalan('walter')}}
+</body>
+</html>

@@ -1,19 +1,20 @@
 # Flask
 
-Abordando un micro-framework de Python
+> Abordando un micro-framework de Python
 
 <img src="./Flask_logo.svg">
 
-
-## Como Inicio ?
+## ¿ Como Inicio ?
 
 ```bash
 $ python --version
+Python 3.x
 ```
+
 #### Sitio web oficial
 https://flask.palletsprojects.com
 
-#### Editor de Codigo
+#### Editor de Código
 https://code.visualstudio.com
 
 #### Contenido
